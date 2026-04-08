@@ -87,7 +87,7 @@ section { padding: 60px 0; }
 .nav--scrolled { padding: 10px 0; background: rgba(253,252,249,.94); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border-bottom: 1px solid var(--mist); }
 .nav--solid { padding: 10px 0; background: rgba(253,252,249,.97); backdrop-filter: blur(14px); border-bottom: 1px solid var(--mist); }
 .nav--solid .nav__links .btn--primary { color: var(--white) !important; }
-.nav__inner { max-width: var(--max-w-wide); margin: 0 auto; padding: 0 clamp(24px, 5vw, 48px); display: flex; align-items: center; justify-content: space-between; }
+.nav__inner { max-width: var(--max-w-wide); margin: 0 auto; padding: 0 clamp(24px, 5vw, 48px); display: flex; align-items: center; justify-content: space-between; position: relative; }
 .nav__logo { display: flex; align-items: center; }
 .nav__logo img { height: 30px; width: auto; transition: opacity .3s; }
 .nav__links { display: flex; align-items: center; gap: 28px; }
@@ -100,6 +100,8 @@ section { padding: 60px 0; }
 .nav--hero.nav--scrolled .nav__links .btn--primary { color: var(--white) !important; }
 .nav__toggle { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 4px; }
 .nav__toggle span { width: 22px; height: 2px; background: var(--charcoal); transition: all .3s; }
+.nav--hero .nav__toggle span { background: var(--white); }
+.nav--hero.nav--scrolled .nav__toggle span { background: var(--charcoal); }
 
 /* Hero */
 .hero { position: relative; min-height: 100vh; display: flex; align-items: center; background: linear-gradient(160deg, var(--forest-dark) 0%, var(--forest-deep) 40%, #1a3a22 100%); overflow: hidden; }
@@ -268,7 +270,17 @@ section { padding: 60px 0; }
 }
 @media (max-width: 768px) {
   section { padding: 48px 0; }
-  .nav__links { display: none; }
+  .nav__links {
+    display: none;
+    position: absolute; top: 100%; left: 0; right: 0;
+    flex-direction: column; align-items: stretch; gap: 0;
+    background: rgba(253,252,249,.97); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+    border-bottom: 1px solid var(--mist); padding: 12px 0;
+  }
+  .nav__links.open { display: flex; }
+  .nav__links a { padding: 12px clamp(24px, 5vw, 48px); font-size: 14px; color: var(--charcoal) !important; }
+  .nav__links a:hover { background: var(--cream); }
+  .nav__links .btn--primary { margin: 8px clamp(24px, 5vw, 48px); text-align: center; justify-content: center; }
   .nav__toggle { display: flex; }
   .grid-2 { grid-template-columns: 1fr; gap: 40px; }
   .card-grid-3, .step-grid { grid-template-columns: 1fr; }
