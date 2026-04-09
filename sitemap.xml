@@ -5,8 +5,10 @@
   <url><loc>https://www.zenithecon.com/industries.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://www.zenithecon.com/case-studies.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://www.zenithecon.com/about.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.zenithecon.com/insights.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.zenithecon.com/publications.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.zenithecon.com/contact.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.zenithecon.com/accessibility.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://www.zenithecon.com/media.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://www.zenithecon.com/industry-universities.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.zenithecon.com/industry-airports.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -18,4 +20,17 @@
   <url><loc>https://www.zenithecon.com/industry-transportation.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.zenithecon.com/industry-associations.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.zenithecon.com/industry-museums.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.zenithecon.com/case-studies/crowder-college.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.zenithecon.com/case-studies/montana-aviation.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.zenithecon.com/case-studies/zootown-festival.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.zenithecon.com/case-studies/us-data-centers.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.zenithecon.com/case-studies/lacera-pension.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.zenithecon.com/case-studies/port-san-antonio.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.zenithecon.com/case-studies/cheech-marin-museum.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.zenithecon.com/case-studies/cielo-digital-infrastructure.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.zenithecon.com/insights/economic-impact-study-cost.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.zenithecon.com/insights/what-is-implan.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.zenithecon.com/insights/fiscal-vs-economic-impact.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.zenithecon.com/insights/evaluating-an-impact-report.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.zenithecon.com/insights/multipliers-explained.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>

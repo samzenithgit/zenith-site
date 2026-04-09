@@ -1,0 +1,24 @@
+# Legacy expertise URLs → services
+/expertise              /services.html        301
+/expertise/             /services.html        301
+/expertise/*            /services.html        301
+
+# Legacy expertise sub-pages individual mappings (for any indexed pages)
+/expertise/economic-development          /services.html  301
+/expertise/economic-impact               /services.html  301
+/expertise/fiscal-impact                 /services.html  301
+/expertise/land-use-policy               /services.html  301
+/expertise/land-use                      /services.html  301
+/expertise/social-impact                 /services.html  301
+/expertise/feasibility                   /services.html  301
+/expertise/eb5                           /services.html  301
+
+# Common URL variations
+/about                  /about.html           301
+/services               /services.html        301
+/industries             /industries.html      301
+/case-studies           /case-studies.html    301
+/contact                /contact.html         301
+/publications           /publications.html    301
+/accessibility          /accessibility.html   301
+/privacy                /privacy.html         301
