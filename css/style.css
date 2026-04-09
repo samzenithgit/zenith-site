@@ -303,7 +303,7 @@ section { padding: 60px 0; }
 /* Full-width intro block (Case Studies, Publications, Insights)
    Spans the container width so its edges align with the card grid below */
 .intro-grid { max-width: none; margin: 0; }
-.intro-grid p { font-size: 16px; color: var(--slate); line-height: 1.75; margin: 0 0 16px; text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
+.intro-grid p { max-width: none; font-size: 16px; color: var(--slate); line-height: 1.75; margin: 0 0 16px; text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
 .intro-grid p:last-child { margin-bottom: 0; }
 .intro-grid a { color: var(--forest); text-decoration: underline; }
 .intro-grid a:hover { color: var(--forest-deep); }
