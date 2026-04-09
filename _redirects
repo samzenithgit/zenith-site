@@ -1,24 +1,49 @@
-# Legacy expertise URLs → services
-/expertise              /services.html        301
-/expertise/             /services.html        301
-/expertise/*            /services.html        301
+# Legacy expertise URLs → services (permanent)
+/expertise              /services             301
+/expertise/             /services             301
+/expertise/*            /services             301
 
-# Legacy expertise sub-pages individual mappings (for any indexed pages)
-/expertise/economic-development          /services.html  301
-/expertise/economic-impact               /services.html  301
-/expertise/fiscal-impact                 /services.html  301
-/expertise/land-use-policy               /services.html  301
-/expertise/land-use                      /services.html  301
-/expertise/social-impact                 /services.html  301
-/expertise/feasibility                   /services.html  301
-/expertise/eb5                           /services.html  301
+/expertise/economic-development          /services  301
+/expertise/economic-impact               /services  301
+/expertise/fiscal-impact                 /services  301
+/expertise/land-use-policy               /services  301
+/expertise/land-use                      /services  301
+/expertise/social-impact                 /services  301
+/expertise/feasibility                   /services  301
+/expertise/eb5                           /services  301
 
-# Common URL variations
-/about                  /about.html           301
-/services               /services.html        301
-/industries             /industries.html      301
-/case-studies           /case-studies.html    301
-/contact                /contact.html         301
-/publications           /publications.html    301
-/accessibility          /accessibility.html   301
-/privacy                /privacy.html         301
+# Canonical URL enforcement: redirect .html form to clean URL
+/index.html             /                     301
+/services.html          /services             301
+/industries.html        /industries           301
+/case-studies.html      /case-studies         301
+/about.html             /about                301
+/contact.html           /contact              301
+/publications.html      /publications         301
+/insights.html          /insights             301
+/accessibility.html     /accessibility        301
+/privacy.html           /privacy              301
+/media.html             /media                301
+/industry-universities.html       /industry-universities        301
+/industry-airports.html           /industry-airports            301
+/industry-data-centers.html       /industry-data-centers        301
+/industry-festivals.html          /industry-festivals           301
+/industry-ports.html              /industry-ports               301
+/industry-pensions.html           /industry-pensions            301
+/industry-real-estate.html        /industry-real-estate         301
+/industry-transportation.html     /industry-transportation      301
+/industry-associations.html       /industry-associations        301
+/industry-museums.html            /industry-museums             301
+/case-studies/crowder-college.html              /case-studies/crowder-college              301
+/case-studies/montana-aviation.html             /case-studies/montana-aviation             301
+/case-studies/zootown-festival.html             /case-studies/zootown-festival             301
+/case-studies/us-data-centers.html              /case-studies/us-data-centers              301
+/case-studies/lacera-pension.html               /case-studies/lacera-pension               301
+/case-studies/port-san-antonio.html             /case-studies/port-san-antonio             301
+/case-studies/cheech-marin-museum.html          /case-studies/cheech-marin-museum          301
+/case-studies/cielo-digital-infrastructure.html /case-studies/cielo-digital-infrastructure 301
+/insights/economic-impact-study-cost.html       /insights/economic-impact-study-cost       301
+/insights/what-is-implan.html                   /insights/what-is-implan                   301
+/insights/fiscal-vs-economic-impact.html        /insights/fiscal-vs-economic-impact        301
+/insights/evaluating-an-impact-report.html      /insights/evaluating-an-impact-report      301
+/insights/multipliers-explained.html            /insights/multipliers-explained            301

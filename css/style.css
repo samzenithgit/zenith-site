@@ -47,7 +47,7 @@ a:focus:not(:focus-visible), button:focus:not(:focus-visible) { outline: none; }
 h1, h2, h3, h4 { font-family: var(--font-d); font-weight: 600; line-height: 1.15; color: var(--forest-deep); }
 h1 { font-size: clamp(2.5rem, 5.5vw, 4.5rem); }
 h2 { font-size: clamp(1.75rem, 3vw, 2.5rem); }
-h3 { font-size: clamp(1.25rem, 2vw, 1.6rem); }
+h3 { font-size: 1.1rem; }
 h4 { font-size: 1.1rem; }
 p { max-width: 65ch; }
 
@@ -141,7 +141,7 @@ section { padding: 60px 0; }
 /* Hover card */
 .hover-card { background: var(--warm-white); padding: 28px 24px; border-radius: 4px; border: 1px solid var(--mist); transition: all .3s var(--ease); height: 100%; }
 .hover-card:hover { border-color: #ccc5b8; transform: translateY(-3px); box-shadow: 0 10px 36px rgba(0,0,0,.05); }
-.hover-card h4 { font-family: var(--font-d); font-size: 16.5px; font-weight: 600; color: var(--forest-deep); margin-bottom: 7px; line-height: 1.3; }
+.hover-card h3 { font-family: var(--font-d); font-size: 16.5px; font-weight: 600; color: var(--forest-deep); margin-bottom: 7px; line-height: 1.3; }
 .hover-card p { font-size: 13.5px; color: var(--slate); line-height: 1.6; }
 
 /* Industry pills */
@@ -157,7 +157,7 @@ section { padding: 60px 0; }
 .case-card:hover .case-card__img img { transform: scale(1.03); }
 .case-card__tag { position: absolute; top: 8px; left: 8px; background: var(--forest-deep); color: var(--gold-light); font-size: 10px; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; padding: 3px 9px; border-radius: 2px; }
 .case-card__body { padding: 20px 22px; }
-.case-card__body h4 { font-family: var(--font-d); font-size: 16.5px; font-weight: 600; color: var(--forest-deep); margin-bottom: 5px; line-height: 1.3; }
+.case-card__body h3 { font-family: var(--font-d); font-size: 16.5px; font-weight: 600; color: var(--forest-deep); margin-bottom: 5px; line-height: 1.3; }
 .case-card__body p { font-size: 13px; color: var(--slate); line-height: 1.55; margin-bottom: 14px; }
 .case-card__metric { display: flex; align-items: baseline; gap: 8px; padding-top: 14px; border-top: 1px solid var(--mist); }
 .case-card__metric-num { font-family: var(--font-d); font-size: 22px; font-weight: 700; color: var(--forest); }
@@ -169,7 +169,7 @@ section { padding: 60px 0; }
 .step { padding: 28px 22px; background: var(--warm-white); border-radius: 4px; border: 1px solid var(--mist); transition: border-color .25s; }
 .step:hover { border-color: #ccc5b8; }
 .step__num { font-family: var(--font-d); font-size: 34px; font-weight: 700; color: var(--gold); opacity: .25; line-height: 1; margin-bottom: 14px; }
-.step h4 { margin-bottom: 7px; }
+.step h3 { margin-bottom: 7px; }
 .step p { font-size: 13px; color: var(--slate); line-height: 1.6; }
 
 /* Testimonials */
@@ -225,7 +225,13 @@ section { padding: 60px 0; }
 .form-group { display: flex; flex-direction: column; gap: 5px; }
 .form-group label { font-size: 12px; font-weight: 600; color: var(--slate); }
 .form-group input, .form-group textarea, .form-group select { padding: 11px 13px; border: 1.5px solid var(--mist); border-radius: 2px; font-family: var(--font-b); font-size: 14px; background: var(--white); color: var(--charcoal); transition: border-color .25s; }
-.form-group input:focus, .form-group textarea:focus, .form-group select:focus { outline: none; border-color: var(--forest); box-shadow: 0 0 0 3px rgba(58,90,64,.15); }
+.form-group input:focus, .form-group textarea:focus, .form-group select:focus { border-color: var(--forest); box-shadow: 0 0 0 3px rgba(58,90,64,.15); outline: none; }
+.form-group input:focus-visible, .form-group textarea:focus-visible, .form-group select:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+.form-group input[aria-invalid="true"], .form-group textarea[aria-invalid="true"] { border-color: #b91c1c; }
+.form-group .form-error { font-size: 12px; color: #b91c1c; margin-top: 4px; min-height: 1em; }
+.form-status { margin-top: 12px; padding: 12px; border-radius: 3px; font-size: 14px; display: none; }
+.form-status--success { display: block; background: #e8f4ea; color: #1b5e20; border: 1px solid #a5d6a7; }
+.form-status--error { display: block; background: #fdecea; color: #8b1b1b; border: 1px solid #f4b2ae; }
 .form-group textarea { resize: vertical; min-height: 110px; }
 
 /* Team */
@@ -233,7 +239,7 @@ section { padding: 60px 0; }
 .team-card { text-align: center; }
 .team-card__photo { width: 100%; aspect-ratio: 1; border-radius: 4px; overflow: hidden; margin-bottom: 14px; background: var(--mist); }
 .team-card__photo img { width: 100%; height: 100%; object-fit: cover; object-position: center 15%; }
-.team-card h4 { font-family: var(--font-d); font-size: 15px; font-weight: 600; color: var(--forest-deep); margin-bottom: 2px; }
+.team-card h3 { font-family: var(--font-d); font-size: 15px; font-weight: 600; color: var(--forest-deep); margin-bottom: 2px; }
 .team-card__role { font-size: 12.5px; color: var(--slate); }
 .team-card__creds { font-size: 10.5px; font-weight: 600; color: var(--gold-muted); margin-top: 2px; }
 .team-card__bio { font-size: 12px; color: var(--slate); margin-top: 8px; line-height: 1.5; }
