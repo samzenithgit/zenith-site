@@ -303,11 +303,12 @@ section { padding: 60px 0; }
 /* Full-width intro block (Case Studies, Publications, Insights)
    Spans the container width so its edges align with the card grid below */
 .intro-grid { max-width: none; margin: 0; }
-/* Match bottom gap to top gap: page-header padding-bottom (52px) + section padding-top (60px) = 112px.
-   Intro section bottom padding becomes 52px so 52 + 60 (cards section top) = 112 */
+/* Match bottom gap to top gap: the green .page-header background fills its own padding,
+   so the visible top gap = section padding-top only (60px). Drop the intro section's
+   padding-bottom to 0 so bottom gap = cards section padding-top (60px) */
 section[aria-label="About our case studies"],
 section[aria-label="About our publications"],
-section[aria-label="About our insights"] { padding-bottom: 52px; }
+section[aria-label="About our insights"] { padding-bottom: 0; }
 .intro-grid p { max-width: none; font-size: 16px; color: var(--slate); line-height: 1.75; margin: 0 0 16px; text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
 .intro-grid p:last-child { margin-bottom: 0; }
 .intro-grid a { color: var(--forest); text-decoration: underline; }
