@@ -300,6 +300,13 @@ section { padding: 60px 0; }
 .footer__bottom a { color: rgba(255,255,255,.78); transition: color .2s; }
 .footer__bottom a:hover { color: var(--gold-light); }
 
+/* Two-column intro block (Case Studies, Publications, Insights) */
+.intro-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: start; }
+.intro-grid p { font-size: 15px; color: var(--slate); line-height: 1.75; margin: 0 0 14px; }
+.intro-grid p:last-child { margin-bottom: 0; }
+.intro-grid a { color: var(--forest); text-decoration: underline; }
+.intro-grid a:hover { color: var(--forest-deep); }
+
 /* Scroll reveal */
 .reveal { opacity: 0; transform: translateY(28px); transition: opacity .65s var(--ease), transform .65s var(--ease); }
 .reveal.visible { opacity: 1; transform: translateY(0); }
@@ -317,6 +324,7 @@ section { padding: 60px 0; }
   .card-grid-5 { grid-template-columns: repeat(3,1fr); }
   .footer__grid { grid-template-columns: 1fr 1fr; }
   .nav__mega-inner { gap: 32px; padding: 24px clamp(24px,5vw,48px); }
+  .intro-grid { gap: 40px; }
 }
 @media (max-width: 768px) {
   section { padding: 48px 0; }
@@ -337,6 +345,7 @@ section { padding: 60px 0; }
   /* Hide caret inside mobile hamburger menu */
   [data-industries-trigger] .nav__caret { display: none; }
   .grid-2 { grid-template-columns: 1fr; gap: 40px; }
+  .intro-grid { grid-template-columns: 1fr; gap: 0; }
   .card-grid-3, .step-grid { grid-template-columns: 1fr; }
   .pill-grid { grid-template-columns: repeat(2,1fr); }
   .hero__stats { grid-template-columns: repeat(2,1fr); }
