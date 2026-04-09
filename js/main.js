@@ -36,26 +36,59 @@ document.addEventListener('DOMContentLoaded', () => {
     links.querySelectorAll('a').forEach(a => a.addEventListener('click', closeMenu));
   }
 
-  // Industries dropdown
-  document.querySelectorAll('.nav__has-dropdown').forEach(dd => {
-    const btn = dd.querySelector('.nav__dropdown-btn');
-    const panel = dd.querySelector('.nav__dropdown-panel');
-    if (!btn || !panel) return;
-    const close = () => { dd.classList.remove('open'); btn.setAttribute('aria-expanded', 'false'); };
-    const open = () => { dd.classList.add('open'); btn.setAttribute('aria-expanded', 'true'); };
-    btn.addEventListener('click', (e) => {
-      e.stopPropagation();
-      if (dd.classList.contains('open')) close(); else open();
+  // Industries mega menu
+  (function(){
+    const navEl = document.querySelector('.nav');
+    const trigger = document.querySelector('[data-industries-trigger]');
+    const mega = document.querySelector('.nav__mega');
+    if (!navEl || !trigger || !mega) return;
+
+    let closeTimer;
+    const open = () => {
+      clearTimeout(closeTimer);
+      navEl.classList.add('mega-open');
+      trigger.setAttribute('aria-expanded', 'true');
+    };
+    const close = () => {
+      navEl.classList.remove('mega-open');
+      trigger.setAttribute('aria-expanded', 'false');
+    };
+    const closeSoon = () => {
+      clearTimeout(closeTimer);
+      closeTimer = setTimeout(close, 160);
+    };
+
+    // Skip megamenu behavior on narrow viewports (mobile hamburger)
+    const isDesktop = () => window.innerWidth > 768;
+
+    // Hover: open when entering trigger or mega, close when leaving both
+    trigger.addEventListener('mouseenter', () => { if (isDesktop()) open(); });
+    trigger.addEventListener('mouseleave', () => { if (isDesktop()) closeSoon(); });
+    mega.addEventListener('mouseenter', () => { if (isDesktop()) open(); });
+    mega.addEventListener('mouseleave', () => { if (isDesktop()) closeSoon(); });
+
+    // Focus: open when the trigger receives focus (keyboard nav)
+    trigger.addEventListener('focus', () => { if (isDesktop()) open(); });
+    // Close when focus leaves both the trigger and the mega area
+    document.addEventListener('focusin', (e) => {
+      if (!isDesktop()) return;
+      if (!trigger.contains(e.target) && !mega.contains(e.target)) close();
     });
-    // Close on outside click
+
+    // Escape key closes
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && navEl.classList.contains('mega-open')) {
+        close();
+        trigger.focus();
+      }
+    });
+
+    // Outside click closes (for touch/click users on desktop)
     document.addEventListener('click', (e) => {
-      if (!dd.contains(e.target)) close();
+      if (!isDesktop()) return;
+      if (!trigger.contains(e.target) && !mega.contains(e.target)) close();
     });
-    // Escape key closes and returns focus to button
-    dd.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && dd.classList.contains('open')) { close(); btn.focus(); }
-    });
-  });
+  })();
 
   // Contact form inline validation + aria-live status
   const contactForm = document.getElementById('contact-form');

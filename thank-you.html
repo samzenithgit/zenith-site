@@ -15,7 +15,7 @@
   <link rel="manifest" href="/site.webmanifest">
   <meta name="theme-color" content="#1b2e20">
 
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?v=2">
 </head>
 <body>
 <a class="skip-nav" href="#main-content">Skip to main content</a>
@@ -27,7 +27,7 @@
     </a>
     <div class="nav__links">
       <a href="services.html">Services</a>
-      <div class="nav__has-dropdown"><button type="button" class="nav__dropdown-btn" aria-expanded="false" aria-haspopup="true" aria-controls="industries-menu">Industries <span class="nav__caret" aria-hidden="true">&#9662;</span></button><div class="nav__dropdown-panel" id="industries-menu" role="menu"><a href="industries.html" role="menuitem">All Industries</a><hr><a href="industry-universities.html" role="menuitem">Universities &amp; Colleges</a><a href="industry-airports.html" role="menuitem">Airports &amp; Aviation</a><a href="industry-data-centers.html" role="menuitem">Data Centers &amp; Technology</a><a href="industry-festivals.html" role="menuitem">Festivals &amp; Events</a><a href="industry-ports.html" role="menuitem">Ports &amp; Maritime</a><a href="industry-pensions.html" role="menuitem">Pension &amp; Retirement Systems</a><a href="industry-real-estate.html" role="menuitem">Real Estate &amp; EB-5</a><a href="industry-transportation.html" role="menuitem">Transportation &amp; Infrastructure</a><a href="industry-associations.html" role="menuitem">Industry Associations</a><a href="industry-museums.html" role="menuitem">Museums &amp; Cultural Institutions</a></div></div>
+      <a href="industries.html" data-industries-trigger aria-haspopup="true" aria-expanded="false">Industries <span class="nav__caret" aria-hidden="true">&#9662;</span></a>
       <a href="case-studies.html">Case Studies</a>
       <a href="about.html">About</a>
       <a href="publications.html">Publications</a>
@@ -36,6 +36,31 @@
     </div>
     <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
   </div>
+<div class="nav__mega" id="industries-mega">
+  <div class="nav__mega-inner">
+    <div class="nav__mega-col nav__mega-col--lead">
+      <div class="nav__mega-eyebrow">Industries We Serve</div>
+      <a href="industries.html" class="nav__mega-all">All Industries <span aria-hidden="true">&rarr;</span></a>
+      <p class="nav__mega-lead">From multi-billion dollar ports to local festivals, we measure impact across every sector.</p>
+    </div>
+    <div class="nav__mega-col">
+      <a href="industry-universities.html">Universities &amp; Colleges</a>
+      <a href="industry-airports.html">Airports &amp; Aviation</a>
+      <a href="industry-data-centers.html">Data Centers &amp; Technology</a>
+      <a href="industry-festivals.html">Festivals &amp; Events</a>
+    </div>
+    <div class="nav__mega-col">
+      <a href="industry-ports.html">Ports &amp; Maritime</a>
+      <a href="industry-pensions.html">Pension &amp; Retirement Systems</a>
+      <a href="industry-real-estate.html">Real Estate &amp; EB-5</a>
+      <a href="industry-transportation.html">Transportation &amp; Infrastructure</a>
+    </div>
+    <div class="nav__mega-col">
+      <a href="industry-associations.html">Industry Associations</a>
+      <a href="industry-museums.html">Museums &amp; Cultural Institutions</a>
+    </div>
+  </div>
+</div>
 </nav>
 </header>
 <main id="main-content">
@@ -77,6 +102,6 @@
     </div>
   </div>
 </footer>
-<script src="js/main.js?v=2"></script>
+<script src="js/main.js?v=3"></script>
 </body>
 </html>
