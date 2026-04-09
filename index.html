@@ -8,9 +8,14 @@
   <link rel="canonical" href="https://www.zenithecon.com/">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png">
-  <link rel="icon" type="image/svg+xml" href="images/logo-icon.svg">
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="icon" type="image/svg+xml" href="/images/logo-icon.svg">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#1b2e20">
+
+  <!-- Preload hero image -->
+  <link rel="preload" as="image" href="images/samuel-conference.jpg">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
@@ -193,7 +198,7 @@
       </div>
       <div class="reveal reveal-d2">
         <div class="img-badge" style="aspect-ratio:4/3;background:var(--mist);">
-          <img src="images/samuel-conference.jpg" alt="Samuel Maury-Holmes presenting economic impact findings at a conference" loading="lazy">
+          <img src="images/samuel-conference.jpg" alt="Samuel Maury-Holmes presenting economic impact findings at a conference" loading="eager" fetchpriority="high" width="600" height="450">
           <div class="img-badge__label"><span class="gold" aria-hidden="true">&#9733;</span> IMPLAN Certified</div>
         </div>
       </div>
@@ -291,7 +296,7 @@
   <div class="container">
     <div class="footer__grid">
       <div class="footer__brand">
-        <img src="images/logo-white.svg" alt="Zenith Economics" style="height:54px;width:auto;margin-bottom:10px;">
+        <img src="images/logo-white.svg" alt="" style="height:54px;width:auto;margin-bottom:10px;">
         <p>Independent economic consultancy delivering rigorous, trusted impact analysis nationwide.</p>
         <p style="font-size:11.5px;margin-top:10px;opacity:.6;">355 South Grand Ave, Suite 2450<br>PMB 2220, Los Angeles, CA 90071</p>
       </div>
@@ -324,16 +329,5 @@
   </div>
 </footer>
 <script src="js/main.js"></script>
-<script>
-// Swap nav logo on scroll for hero pages
-(function(){
-  var nav=document.querySelector('.nav--hero');
-  if(!nav)return;
-  var logo=nav.querySelector('.nav__logo img');
-  if(!logo)return;
-  function u(){logo.src=window.scrollY>50?'images/logo-green.svg':'images/logo-white.svg';}
-  window.addEventListener('scroll',u,{passive:true});u();
-})();
-</script>
 </body>
 </html>

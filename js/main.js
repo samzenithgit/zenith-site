@@ -86,6 +86,19 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // Swap nav logo on scroll for hero pages
+  (function(){
+    var heroNav = document.querySelector('.nav--hero');
+    if (!heroNav) return;
+    var heroLogo = heroNav.querySelector('.nav__logo img');
+    if (!heroLogo) return;
+    function updateLogo() {
+      heroLogo.src = window.scrollY > 50 ? 'images/logo-green.svg' : 'images/logo-white.svg';
+    }
+    window.addEventListener('scroll', updateLogo, { passive: true });
+    updateLogo();
+  })();
+
   // Scroll reveal (respects prefers-reduced-motion)
   const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const els = document.querySelectorAll('.reveal');
