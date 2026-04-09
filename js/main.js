@@ -36,6 +36,27 @@ document.addEventListener('DOMContentLoaded', () => {
     links.querySelectorAll('a').forEach(a => a.addEventListener('click', closeMenu));
   }
 
+  // Industries dropdown
+  document.querySelectorAll('.nav__has-dropdown').forEach(dd => {
+    const btn = dd.querySelector('.nav__dropdown-btn');
+    const panel = dd.querySelector('.nav__dropdown-panel');
+    if (!btn || !panel) return;
+    const close = () => { dd.classList.remove('open'); btn.setAttribute('aria-expanded', 'false'); };
+    const open = () => { dd.classList.add('open'); btn.setAttribute('aria-expanded', 'true'); };
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      if (dd.classList.contains('open')) close(); else open();
+    });
+    // Close on outside click
+    document.addEventListener('click', (e) => {
+      if (!dd.contains(e.target)) close();
+    });
+    // Escape key closes and returns focus to button
+    dd.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && dd.classList.contains('open')) { close(); btn.focus(); }
+    });
+  });
+
   // Contact form inline validation + aria-live status
   const contactForm = document.getElementById('contact-form');
   if (contactForm) {
