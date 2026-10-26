@@ -24,6 +24,7 @@ Key facts, current as of October 2026 (details and sources on the firm facts pag
 - [How much does an economic impact study cost?](https://www.zenithecon.com/insights/economic-impact-study-cost): Cost drivers and typical fee ranges
 - [How long does an economic impact study take?](https://www.zenithecon.com/insights/economic-impact-study-timeline): Typical timelines by type of study and what causes delays
 - [How to write an RFP for an economic impact study](https://www.zenithecon.com/insights/economic-impact-study-rfp): What to include, sample scope language and how to score bids
+- [Economic impact analysis vs. benefit-cost analysis](https://www.zenithecon.com/insights/economic-impact-vs-benefit-cost-analysis): What each measures, and why USDOT, FAA and OMB guidance (7% real discount rate; 1992 OMB Circular A-94 reinstated in 2025) keeps regional impacts out of BCA benefits
 - [What is IMPLAN and how does it work?](https://www.zenithecon.com/insights/what-is-implan): The input-output model behind most U.S. impact studies
 - [Fiscal impact vs. economic impact](https://www.zenithecon.com/insights/fiscal-vs-economic-impact): What each type of study measures
 - [Multipliers explained](https://www.zenithecon.com/insights/multipliers-explained): Direct, indirect and induced effects
