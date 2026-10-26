@@ -1,2 +1,3 @@
-CLAUDE.md
-.claude/
+# CLAUDE.md, _internal/ and .claude/settings.json are committed on purpose;
+# _redirects blocks them from being served.
+.claude/settings.local.json
