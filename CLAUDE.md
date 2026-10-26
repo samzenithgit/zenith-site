@@ -1,6 +1,6 @@
 # CLAUDE.md: zenithecon.com
 
-Instructions for any AI coding assistant working in this repository. Last reviewed 2026-10-26.
+Instructions for any AI coding assistant working in this repository. `AGENTS.md` is a symlink to this file for tools that read that name. Last reviewed 2026-10-26.
 
 ## Standing rules
 
@@ -31,7 +31,7 @@ On a protected page:
 - Plain static HTML/CSS/JS. No build step. Netlify publishes the repo root (`publish = "."`).
 - Netlify Pretty URLs rewrites internal `.html` links to clean paths at deploy. Canonical URLs are the clean form: `https://www.zenithecon.com/insights/economic-impact-study-cost`. Use clean URLs in canonicals, schema `@id`/`url`/breadcrumb `item` values, the sitemap and any absolute link.
 - Redirects live in `_redirects`; headers and CSP live in `netlify.toml`. The CSP blocks third-party scripts. Do not add analytics, chat widgets or tag managers without Sam's approval.
-- Everything committed at the repo root is publicly served. Internal files (this file, `_internal/`, `.claude/`) must stay blocked by the `404!` rules in `_redirects`. Never put secrets, client data or drafts in the repo.
+- Everything committed at the repo root is publicly served. Internal files (this file, `AGENTS.md`, `_internal/`, `.claude/`, `.github/`) must stay blocked by the `404!` rules in `_redirects`. Never put secrets, client data or drafts in the repo.
 - `sweepstakes/` pages are legal terms for client surveys. They are `noindex`. Do not restyle or edit their text without Sam's approval.
 - Shared header, mega-menu and footer markup is duplicated in every page. A nav or footer change must be applied to every HTML file.
 
@@ -42,6 +42,7 @@ On a protected page:
 - Facts and figures: every number on the site must trace to a Zenith report, a client publication or a cited public source. Link the source where one is public. No unverifiable superlatives ("most experienced", "virtually any other firm") and no testimonials without a named or client-approved attribution.
 - Accessibility and agents: native `<a>`/`<button>` elements, labelled form fields (`<label for>`), visible text that does not depend on JavaScript to appear, stable layout. Content must be readable in the raw HTML response; do not hide main content behind scroll animations or client-side rendering.
 - Performance: size images to their display size, serve WebP/AVIF with JPEG fallback, set `width`/`height`, lazy-load below the fold.
+- `llms.txt` (site root) is a short curated index for AI agents. Update it in the same PR whenever a page is added, removed or renamed, or when a fact it states changes (fees, timelines, credentials, study figures).
 - Before opening a PR: validate HTML, run the JSON-LD through the Rich Results Test or Schema Markup Validator, check every changed link returns 200 with no redirect chain, and view changed pages at phone and desktop widths.
 
 ## Design direction

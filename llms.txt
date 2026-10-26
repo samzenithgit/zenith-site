@@ -1,0 +1,57 @@
+# Zenith Economics
+
+> Zenith Economics, LLC is an independent economic consulting firm in Los Angeles, founded in 2024 by Samuel Maury-Holmes. It produces economic impact, fiscal impact and social impact studies for public agencies, universities, airports, ports, pension systems, event organizers and companies across the United States.
+
+Key facts, current as of October 2026 (details and sources on the firm facts page):
+
+- Fees are fixed per engagement. Typical ranges: $3,000 to $8,000 for a targeted survey or small fiscal memo; $8,000 to $25,000 for a standard single-organization study; $25,000 to $75,000 for multi-site or complex studies; $75,000 to $150,000 and up for statewide systems.
+- Most studies take 6 to 12 weeks; expedited studies take one to two weeks. Proposals are sent within 48 hours of an inquiry.
+- Primary model: IMPLAN. The team also uses REMI, RIMS II, Lightcast, Chmura and Eora multi-regional input-output tables.
+- Samuel Maury-Holmes and Johnathan Cahill are IMPLAN Certified Economist Professionals (ICEP), among the 42 economists listed in IMPLAN's directory.
+- The firm does not accept sponsored research or publish work in which it has a financial stake.
+- Contact: info@zenithecon.com, (909) 206-3833, https://www.zenithecon.com/contact
+
+## About the firm
+
+- [Firm facts](https://www.zenithecon.com/firm-facts): Services, fee ranges, timelines, models, credentials, team and selected studies with public sources
+- [About](https://www.zenithecon.com/about): Firm background and team
+- [Samuel Maury-Holmes](https://www.zenithecon.com/team/samuel-maury-holmes): Founder and CEO; recent studies and articles
+- [Services](https://www.zenithecon.com/services): Economic, fiscal and social impact analysis, legislative district analysis, land use and feasibility, EB-5 economic analysis
+
+## Guides
+
+- [How much does an economic impact study cost?](https://www.zenithecon.com/insights/economic-impact-study-cost): Cost drivers and typical fee ranges
+- [What is IMPLAN and how does it work?](https://www.zenithecon.com/insights/what-is-implan): The input-output model behind most U.S. impact studies
+- [Fiscal impact vs. economic impact](https://www.zenithecon.com/insights/fiscal-vs-economic-impact): What each type of study measures
+- [Multipliers explained](https://www.zenithecon.com/insights/multipliers-explained): Direct, indirect and induced effects
+- [How to evaluate an economic impact report](https://www.zenithecon.com/insights/evaluating-an-impact-report): Questions to ask of any impact study
+
+## Case studies
+
+- [Montana statewide aviation](https://www.zenithecon.com/case-studies/montana-aviation): 75 public-use airports for the Montana Department of Transportation (2026); $6.5 billion in output, 39,000+ jobs
+- [LACERA pension benefits](https://www.zenithecon.com/case-studies/lacera-pension): 2025 benefit spending supported $5.3 billion in California output and 21,300 jobs (2026 study)
+- [Crowder College](https://www.zenithecon.com/case-studies/crowder-college): $128.9 million in annual impact and 964 jobs in Southwest Missouri (2026)
+- [Port San Antonio](https://www.zenithecon.com/case-studies/port-san-antonio): $9 billion in annual economic activity (2024), multi-regional model
+- [U.S. data center construction](https://www.zenithecon.com/case-studies/us-data-centers): National study (2025); 571,000+ jobs and $155.8 billion in sales a year
+- [Zootown Music Festival](https://www.zenithecon.com/case-studies/zootown-festival): $9.1 million in net new output for the Missoula region from an attendee survey
+- [The Cheech, Riverside](https://www.zenithecon.com/case-studies/cheech-marin-museum): Impact analysis for Boules Consulting and the City of Riverside
+- [Cielo Digital Infrastructure](https://www.zenithecon.com/case-studies/cielo-digital-infrastructure): Project-by-project data center impact studies
+
+## Industries
+
+- [Universities and colleges](https://www.zenithecon.com/industry-universities)
+- [Airports](https://www.zenithecon.com/industry-airports)
+- [Data centers](https://www.zenithecon.com/industry-data-centers)
+- [Festivals and events](https://www.zenithecon.com/industry-festivals)
+- [Ports](https://www.zenithecon.com/industry-ports)
+- [Pension systems](https://www.zenithecon.com/industry-pensions)
+- [Real estate and EB-5](https://www.zenithecon.com/industry-real-estate)
+- [Transportation](https://www.zenithecon.com/industry-transportation)
+- [Industry associations](https://www.zenithecon.com/industry-associations)
+- [Museums](https://www.zenithecon.com/industry-museums)
+
+## Optional
+
+- [Media coverage](https://www.zenithecon.com/media): Press coverage and government citations of Zenith studies
+- [Publications](https://www.zenithecon.com/publications): Original research
+- [Request a proposal](https://www.zenithecon.com/contact)
