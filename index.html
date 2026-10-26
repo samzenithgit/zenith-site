@@ -15,8 +15,6 @@
   <link rel="manifest" href="/site.webmanifest">
   <meta name="theme-color" content="#1b2e20">
 
-  <!-- Preload hero image -->
-  <link rel="preload" as="image" href="images/samuel-conference.jpg">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
@@ -37,101 +35,102 @@
   <meta name="twitter:description" content="Independent economic consultancy delivering rigorous impact analysis. IMPLAN Certified Economists with 100+ studies nationwide.">
 
   <!-- Structured Data -->
-  <script type="application/ld+json">{
-    "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "Zenith Economics, LLC",
-    "description": "Independent economic consultancy providing economic impact analysis, fiscal impact studies, and social impact research.",
-    "url": "https://www.zenithecon.com",
-    "logo": "https://www.zenithecon.com/images/logo-green.svg",
-    "image": "https://www.zenithecon.com/images/logo-green.svg",
-    "telephone": "+1-909-206-3833",
-    "email": "info@zenithecon.com",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "355 South Grand Avenue, Suite 2450, PMB 2220",
-      "addressLocality": "Los Angeles",
-      "addressRegion": "CA",
-      "postalCode": "90071",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 34.0522,
-      "longitude": -118.2437
-    },
-    "areaServed": "US",
-    "priceRange": "$3,000 - $150,000+",
-    "foundingDate": "2024",
-    "numberOfEmployees": {
-      "@type": "QuantitativeValue",
-      "minValue": 2,
-      "maxValue": 10
-    },
-    "knowsAbout": ["Economic Impact Analysis", "Fiscal Impact Studies", "IMPLAN Modeling", "Input-Output Analysis", "Social Impact Assessment"],
-    "sameAs": ["https://www.linkedin.com/company/zenith-economics"]
-  }</script>
-  <script type="application/ld+json">{
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Zenith Economics, LLC",
-    "alternateName": "Zenith Economics",
-    "url": "https://www.zenithecon.com",
-    "logo": "https://www.zenithecon.com/images/logo-green.svg",
-    "description": "Independent economic consultancy specializing in economic impact analysis, fiscal impact studies, and social impact research with IMPLAN Certified Economists.",
-    "foundingDate": "2024",
-    "founder": {"@type": "Person", "name": "Samuel Maury-Holmes"},
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+1-909-206-3833",
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://www.zenithecon.com/#organization",
+      "name": "Zenith Economics, LLC",
+      "alternateName": "Zenith Economics",
+      "url": "https://www.zenithecon.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.zenithecon.com/images/logo-green.svg"
+      },
+      "image": "https://www.zenithecon.com/images/og-card.png",
+      "description": "Independent economic consultancy providing economic impact analysis, fiscal impact studies, and social impact research, with IMPLAN Certified Economists on staff.",
       "email": "info@zenithecon.com",
-      "contactType": "customer service",
-      "areaServed": "US",
-      "availableLanguage": "English"
+      "telephone": "+1-909-206-3833",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "355 South Grand Avenue, Suite 2450, PMB 2220",
+        "addressLocality": "Los Angeles",
+        "addressRegion": "CA",
+        "postalCode": "90071",
+        "addressCountry": "US"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      },
+      "priceRange": "$3,000 - $150,000+",
+      "foundingDate": "2024",
+      "founder": {
+        "@id": "https://www.zenithecon.com/team/samuel-maury-holmes#person"
+      },
+      "numberOfEmployees": {
+        "@type": "QuantitativeValue",
+        "minValue": 2,
+        "maxValue": 10
+      },
+      "knowsAbout": [
+        "Economic impact analysis",
+        "Fiscal impact analysis",
+        "IMPLAN modeling",
+        "Input-output analysis",
+        "Multi-regional input-output modeling",
+        "Social impact assessment"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "sales",
+        "email": "info@zenithecon.com",
+        "telephone": "+1-909-206-3833",
+        "areaServed": "US",
+        "availableLanguage": "English"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/zenith-economics"
+      ]
     },
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "355 South Grand Avenue, Suite 2450, PMB 2220",
-      "addressLocality": "Los Angeles",
-      "addressRegion": "CA",
-      "postalCode": "90071",
-      "addressCountry": "US"
+    {
+      "@type": "WebSite",
+      "@id": "https://www.zenithecon.com/#website",
+      "url": "https://www.zenithecon.com/",
+      "name": "Zenith Economics",
+      "publisher": {
+        "@id": "https://www.zenithecon.com/#organization"
+      }
     },
-    "sameAs": ["https://www.linkedin.com/company/zenith-economics"]
-  }</script>
-  <script type="application/ld+json">{
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "@id": "https://www.zenithecon.com/#localbusiness",
-    "name": "Zenith Economics, LLC",
-    "image": "https://www.zenithecon.com/images/logo-green.svg",
-    "url": "https://www.zenithecon.com",
-    "telephone": "+1-909-206-3833",
-    "email": "info@zenithecon.com",
-    "priceRange": "$3,000 - $150,000+",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "355 South Grand Avenue, Suite 2450, PMB 2220",
-      "addressLocality": "Los Angeles",
-      "addressRegion": "CA",
-      "postalCode": "90071",
-      "addressCountry": "US"
+    {
+      "@type": "Person",
+      "@id": "https://www.zenithecon.com/team/samuel-maury-holmes#person",
+      "name": "Samuel Maury-Holmes",
+      "jobTitle": "Founder & CEO",
+      "worksFor": {
+        "@id": "https://www.zenithecon.com/#organization"
+      }
     },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 34.0522,
-      "longitude": -118.2437
-    },
-    "openingHoursSpecification": [{
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      "opens": "09:00",
-      "closes": "17:00"
-    }],
-    "areaServed": {"@type": "Country", "name": "United States"}
-  }</script>
+    {
+      "@type": "WebPage",
+      "@id": "https://www.zenithecon.com/#webpage",
+      "url": "https://www.zenithecon.com/",
+      "name": "Zenith Economics | Economic Impact Analysis & Fiscal Impact Studies",
+      "description": "Independent IMPLAN-certified economic impact analysis for airports, data centers, ports, festivals, universities, and public agencies. Proposals in 48 hours.",
+      "isPartOf": {
+        "@id": "https://www.zenithecon.com/#website"
+      },
+      "about": {
+        "@id": "https://www.zenithecon.com/#organization"
+      }
+    }
+  ]
+}
+  </script>
 
-  <link rel="stylesheet" href="css/style.css?v=11">
+  <link rel="stylesheet" href="css/style.css?v=12">
 </head>
 <body>
 <a class="skip-nav" href="#main-content">Skip to main content</a>
@@ -222,7 +221,7 @@
       </div>
       <div class="reveal reveal-d2">
         <div class="img-badge" style="aspect-ratio:4/3;background:var(--mist);">
-          <img src="images/samuel-conference.jpg" alt="Samuel Maury-Holmes presenting economic impact findings at a conference" loading="eager" fetchpriority="high" width="600" height="450">
+          <picture><source srcset="images/samuel-conference-1400.webp" type="image/webp"><img src="images/samuel-conference-1400.jpg" alt="Samuel Maury-Holmes presenting economic impact findings at a conference" loading="eager" fetchpriority="high" width="600" height="450"></picture>
           <div class="img-badge__label"><span class="gold" aria-hidden="true">&#9733;</span> IMPLAN Certified</div>
         </div>
       </div>
@@ -248,9 +247,9 @@
   <div class="container">
     <div class="sec-header reveal"><span class="eyebrow">Featured Work</span><h2>Case Studies</h2></div>
     <div class="card-grid-3">
-      <a class="case-card reveal" href="case-studies/crowder-college.html" aria-label="Read case study: Crowder College"><div class="case-card__img"><img src="images/crowder-college.jpg" alt="Crowder College campus showing aerial view, bell tower, and entrance sign" loading="lazy"><span class="case-card__tag">University</span></div><div class="case-card__body"><h3>Crowder College</h3><p>Economic impact study for a Southwest Missouri community college, featured in Joplin Globe and KSNF.</p><div class="case-card__metric"><span class="case-card__metric-num">$128M Output</span><span class="case-card__metric-label">total economic impact</span></div></div></a>
-      <a class="case-card reveal reveal-d1" href="case-studies/montana-aviation.html" aria-label="Read case study: Montana Statewide Aviation"><div class="case-card__img"><img src="images/montana-airport.jpg" alt="Commercial aircraft at a Montana airport with mountain range in background" loading="lazy"><span class="case-card__tag">Aviation</span></div><div class="case-card__body"><h3>Montana Statewide Aviation</h3><p>System-wide aviation analysis for the Montana DOT, including the largest statewide tourist survey in state history.</p><div class="case-card__metric"><span class="case-card__metric-num">75 Airports</span><span class="case-card__metric-label">analyzed statewide</span></div></div></a>
-      <a class="case-card reveal reveal-d2" href="case-studies/zootown-festival.html" aria-label="Read case study: Zootown Music Festival"><div class="case-card__img"><img src="images/stock/festival-crowd.jpg" alt="Outdoor music festival at sunset" loading="lazy"><span class="case-card__tag">Festival</span></div><div class="case-card__body"><h3>Zootown Music Festival</h3><p>Attendee survey and economic impact study for Missoula's breakout music festival, cited in national media.</p><div class="case-card__metric"><span class="case-card__metric-num">$9.1M Output</span><span class="case-card__metric-label">net new activity</span></div></div></a>
+      <a class="case-card reveal" href="case-studies/crowder-college.html" aria-label="Read case study: Crowder College"><div class="case-card__img"><picture><source srcset="images/crowder-college-800.webp" type="image/webp"><img src="images/crowder-college-800.jpg" width="800" height="451" alt="Crowder College campus showing aerial view, bell tower, and entrance sign" loading="lazy"></picture><span class="case-card__tag">University</span></div><div class="case-card__body"><h3>Crowder College</h3><p>Economic impact study for a Southwest Missouri community college, featured in Joplin Globe and KSNF.</p><div class="case-card__metric"><span class="case-card__metric-num">$128M Output</span><span class="case-card__metric-label">total economic impact</span></div></div></a>
+      <a class="case-card reveal reveal-d1" href="case-studies/montana-aviation.html" aria-label="Read case study: Montana Statewide Aviation"><div class="case-card__img"><picture><source srcset="images/montana-airport-724.webp" type="image/webp"><img src="images/montana-airport-724.jpg" width="724" height="483" alt="Commercial aircraft at a Montana airport with mountain range in background" loading="lazy"></picture><span class="case-card__tag">Aviation</span></div><div class="case-card__body"><h3>Montana Statewide Aviation</h3><p>System-wide aviation analysis for the Montana DOT, including the largest statewide tourist survey in state history.</p><div class="case-card__metric"><span class="case-card__metric-num">75 Airports</span><span class="case-card__metric-label">analyzed statewide</span></div></div></a>
+      <a class="case-card reveal reveal-d2" href="case-studies/zootown-festival.html" aria-label="Read case study: Zootown Music Festival"><div class="case-card__img"><picture><source srcset="images/stock/festival-crowd-900.webp" type="image/webp"><img src="images/stock/festival-crowd-900.jpg" width="900" height="600" alt="Outdoor music festival at sunset" loading="lazy"></picture><span class="case-card__tag">Festival</span></div><div class="case-card__body"><h3>Zootown Music Festival</h3><p>Attendee survey and economic impact study for Missoula's breakout music festival, cited in national media.</p><div class="case-card__metric"><span class="case-card__metric-num">$9.1M Output</span><span class="case-card__metric-label">net new activity</span></div></div></a>
     </div>
     <div style="text-align:center;margin-top:36px;" class="reveal"><a href="case-studies.html" class="btn btn--outline">View All Case Studies →</a></div>
   </div>
