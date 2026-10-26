@@ -380,3 +380,4 @@ main article > p, main article > ul > li, main article > ol > li, .cs-body > p, 
 main article { max-width: 760px; }
 main article a:not(.btn):not(.case-card) { color: var(--forest); text-decoration: underline; text-underline-offset: 2px; }
 .hover-card h3 a:hover, .grid-2 h3 a:hover { text-decoration: underline; }
+.grid-2 article h2:not(:first-child) { margin-top: 36px; }
