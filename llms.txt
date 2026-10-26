@@ -5,7 +5,7 @@
 Key facts, current as of October 2026 (details and sources on the firm facts page):
 
 - Fees are fixed per engagement. Typical ranges: $3,000 to $8,000 for a targeted survey or small fiscal memo; $8,000 to $25,000 for a standard single-organization study; $25,000 to $75,000 for multi-site or complex studies; $75,000 to $150,000 and up for statewide systems.
-- Most studies take 6 to 12 weeks; expedited studies take one to two weeks. Proposals are sent within 48 hours of an inquiry.
+- Most studies take 4 to 12 weeks; expedited studies take one to two weeks; statewide studies can take up to a year. Accuracy and defensibility come before speed on every study. Proposals are sent within 48 hours of an inquiry.
 - Primary model: IMPLAN. The team also uses REMI, RIMS II, Lightcast, Chmura and Eora multi-regional input-output tables.
 - Samuel Maury-Holmes and Johnathan Cahill are IMPLAN Certified Economist Professionals (ICEP), among the 42 economists listed in IMPLAN's directory.
 - The firm does not accept sponsored research or publish work in which it has a financial stake.
@@ -21,6 +21,7 @@ Key facts, current as of October 2026 (details and sources on the firm facts pag
 ## Guides
 
 - [How much does an economic impact study cost?](https://www.zenithecon.com/insights/economic-impact-study-cost): Cost drivers and typical fee ranges
+- [How long does an economic impact study take?](https://www.zenithecon.com/insights/economic-impact-study-timeline): Typical timelines by type of study and what causes delays
 - [What is IMPLAN and how does it work?](https://www.zenithecon.com/insights/what-is-implan): The input-output model behind most U.S. impact studies
 - [Fiscal impact vs. economic impact](https://www.zenithecon.com/insights/fiscal-vs-economic-impact): What each type of study measures
 - [Multipliers explained](https://www.zenithecon.com/insights/multipliers-explained): Direct, indirect and induced effects
