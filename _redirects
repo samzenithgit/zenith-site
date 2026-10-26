@@ -54,6 +54,7 @@
 
 # Internal files: never serve publicly
 /CLAUDE.md        /404.html  404!
+/AGENTS.md        /404.html  404!
 /_internal/*      /404.html  404!
 /.claude/*        /404.html  404!
 /.github/*        /404.html  404!
