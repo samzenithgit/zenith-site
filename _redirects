@@ -48,3 +48,8 @@
 /insights/evaluating-an-impact-report.html      /insights/evaluating-an-impact-report      301
 /insights/multipliers-explained.html            /insights/multipliers-explained            301
 /thank-you.html                                /thank-you                                301
+
+# Internal files: never serve publicly
+/CLAUDE.md        /404.html  404!
+/_internal/*      /404.html  404!
+/.claude/*        /404.html  404!
