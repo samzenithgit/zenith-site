@@ -49,6 +49,9 @@
 /insights/multipliers-explained.html            /insights/multipliers-explained            301!
 /thank-you.html                                /thank-you                                301!
 
+/firm-facts.html                               /firm-facts                               301!
+/team/samuel-maury-holmes.html                 /team/samuel-maury-holmes                 301!
+
 # Internal files: never serve publicly
 /CLAUDE.md        /404.html  404!
 /_internal/*      /404.html  404!
